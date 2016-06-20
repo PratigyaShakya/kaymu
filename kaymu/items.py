@@ -11,7 +11,6 @@ import scrapy
 class KaymuItem(scrapy.Item):
     title = scrapy.Field()
     cost = scrapy.Field()
-    link = scrapy.Field()
     product_location = scrapy.Field()
     seller = scrapy.Field()
     avg_rating_tot_reviews = scrapy.Field()
